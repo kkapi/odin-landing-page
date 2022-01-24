@@ -195,3 +195,17 @@ ul {
     font-size: 16px;
     cursor: pointer;
 }
+
+footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 17px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
