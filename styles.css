@@ -118,3 +118,34 @@ ul {
     font-size: 18px;
     color: #1F2937;
 }
+
+.quote {
+    height: 525px;
+    background-color: #E5E7EB;
+}
+
+.quote__text {
+    font-size: 36px;
+    font-weight: 300px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.quote .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 525px;
+}
+
+.quote__information {
+    width: 800px;
+}
+
+.quote__author {
+    text-align: right;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
