@@ -83,7 +83,7 @@ ul {
 }
 
 .information {
-    background-color: #F9FAF8;;
+    background-color: #F9FAF8;
     height: 525px;
     color: #1F2937;   
 }
@@ -149,3 +149,49 @@ ul {
     font-size: 26px;
 }
 
+.authorization .container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorization {
+    background-color: #F9FAF8;
+}
+
+.authorization__info {
+    height: 150px;
+    width: 1085px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.authorization__info .call {
+    color: #F9FAF8; 
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.authorization__info .description {
+    color: #F9FAF8;
+}
+
+.authorization__info .description {
+    color: #E5E7EB;
+}
+
+.authorization__info button {
+    margin: 0;
+    padding: 8px 39px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
